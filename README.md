@@ -2,7 +2,7 @@
 
 A bookmarklet that adds annotations about semantics to your CSS.
 
-- Drag this to your web browser's bookmarks bar: [A11y Semantics](javascript:(function()%7Bvar%20a%3Ddocument.getElementById(%22injected-css%22)%3Bnull%3D%3D%3Da%26%26(a%3Ddocument.createElement(%22link%22)%2Ca.id%3D%22injected-css%22%2Ca.rel%3D%22stylesheet%22%2Cdocument.getElementsByTagName(%22head%22)%5B0%5D.appendChild(a))%3Ba.href%3D%22https%3A%2F%2Fraw.githack.com%2FNothingAG%2Fa11y-semantics-css%2Fmaster%2Fstyles.css%3Fv%3D%22%2BDate.now()%7D)()%3Bvoid+0)
+- Drag this to your web browser's bookmarks bar: [A11y Semantics](javascript:(function()%7Bvar%20a%3Ddocument.getElementById(%22injected-css%22)%3Bnull%3D%3D%3Da%26%26(a%3Ddocument.createElement(%22link%22)%2Ca.id%3D%22injected-css%22%2Ca.rel%3D%22stylesheet%22%2Cdocument.getElementsByTagName(%22head%22)%5B0%5D.appendChild(a))%3Ba.href%3D%22https%3A%2F%2Fraw.githack.com%2FNothingAG%2Fa11y-semantics-css%2Fmaster%2Fa11y-semantics-visible.css%3Fv%3D%22%2BDate.now()%7D)()%3Bvoid+0)
 - Go to any website you like, then click the created bookmark.
 
 ## Development
@@ -29,6 +29,6 @@ javascript: (function () {
     document.getElementsByTagName('head')[0].appendChild(cssLink);
   }
   // Use githack.com to serve CSS with the correct Content-Type
-  cssLink.href = 'https://raw.githack.com/NothingAG/a11y-semantics-css/master/styles.css?v=' + Date.now();
+  cssLink.href = 'https://raw.githack.com/NothingAG/a11y-semantics-css/master/a11y-semantics-visible.css?v=' + Date.now();
 })();
 ```
