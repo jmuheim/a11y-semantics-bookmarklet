@@ -4,7 +4,8 @@
  *
  * A collection of styles that will take care of some general accessibility concerns.
  *
- * ♥️ [github.com/NothingAG/a11y-semantics-css](https://github.com/NothingAG/a11y-semantics-css) / [https://www.nothing.ch](nothing.ch) 🚀
+ * - Repo: https://github.com/NothingAG/a11y-semantics-css ♥️
+ * - Organisation: https://www.nothing.ch 🚀
  *
  * All styles are applied to `data-*` attributes, for example `data-visually-hidden`. This allows easy separation of concerns, as the accessibility styles will never be confused with purely visual styles (which are applied to traditional class names).
  *

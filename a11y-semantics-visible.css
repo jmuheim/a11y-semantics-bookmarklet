@@ -2,9 +2,10 @@
  * Accessibility Semantics CSS - Visible!
  * ======================================
  *
- * A collection of styles that will make the underlying semantics of your HTML visible!
+ * A collection of styles that makes visible the semantics of your HTML! Best results to be expected when using the patterns found in `a11y-semantics.css`.
  *
- * ♥️ [github.com/NothingAG/a11y-semantics-css](https://github.com/NothingAG/a11y-semantics-css) / [https://www.nothing.ch](nothing.ch) 🚀
+ * - Repo: https://github.com/NothingAG/a11y-semantics-css ♥️
+ * - Organisation: https://www.nothing.ch 🚀
  */
 
 [data-visually-hidden],
