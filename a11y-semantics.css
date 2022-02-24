@@ -59,12 +59,21 @@
 /* data-block
  * ----------
  *
- * Converts an inline element into a block element.
+ * Converts any element into a block element.
  *
  * This is useful to make screen readers split several elements (which by default are inline) into separated announcements, for example `<label>` elements containing an input. 
  */
 [data-block] {
   display: block;
+}
+
+/* data-inline-block
+ * -----------------
+ *
+ * Converts any element into an inline block element. They look and behave similar to block elements, but do not cause line breaks and do not take the full width.
+ */
+[data-inline-block] {
+  display: inline-block;
 }
 
 /* data-toggle-visibility

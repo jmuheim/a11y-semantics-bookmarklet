@@ -175,6 +175,10 @@ h6::after {
   margin-top: .5em;
 }
 
+[data-inline-block] {
+  display: inline-block;
+}
+
 [data-full-inline] {
   display: inline-block;
   width: 100%;
