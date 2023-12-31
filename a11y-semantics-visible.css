@@ -314,7 +314,7 @@ main:hover {
 
 main::before {
   background-color: #efef0f;
-  content: "<section>";
+  content: "<main>";
 }
 
 header { /* TODO: define its own colors! */
@@ -328,7 +328,7 @@ header:hover {
 
 header::before {
   background-color: #efef0f;
-  content: "<section>";
+  content: "<header>";
 }
 
 footer { /* TODO: define its own colors! */
@@ -342,7 +342,7 @@ footer:hover {
 
 footer::before {
   background-color: #efef0f;
-  content: "<section>";
+  content: "<footer>";
 }
 
 section {
