@@ -273,6 +273,9 @@ time::before {
   content: "<time>";
 }
 
+main,
+header,
+footer,
 section,
 article,
 nav,
@@ -285,6 +288,9 @@ fieldset {
   margin: 0;
 }
 
+main::before,
+header::before,
+footer::before,
 section::before,
 article::before,
 nav::before,
@@ -295,6 +301,48 @@ fieldset::before {
   right: -2px;
   top: -2px;
   padding: 0 2px;
+}
+
+main { /* TODO: define its own colors! */
+  border-color: #efef0f;
+  background-color: #efef0f33;
+}
+
+main:hover {
+  background-color: #efef0f4D;
+}
+
+main::before {
+  background-color: #efef0f;
+  content: "<section>";
+}
+
+header { /* TODO: define its own colors! */
+  border-color: #efef0f;
+  background-color: #efef0f33;
+}
+
+header:hover {
+  background-color: #efef0f4D;
+}
+
+header::before {
+  background-color: #efef0f;
+  content: "<section>";
+}
+
+footer { /* TODO: define its own colors! */
+  border-color: #efef0f;
+  background-color: #efef0f33;
+}
+
+footer:hover {
+  background-color: #efef0f4D;
+}
+
+footer::before {
+  background-color: #efef0f;
+  content: "<section>";
 }
 
 section {
